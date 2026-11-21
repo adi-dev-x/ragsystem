@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# Source documents (keep the folder, not the PDFs)
+dataloads/*
+!dataloads/.gitkeep
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
